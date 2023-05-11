@@ -5,5 +5,3 @@ if height >= 1.20:
     print("You can ride the rollercoaster!!!")
 else:
     print("Wait a few years and come back!!!")
-    
-print()
