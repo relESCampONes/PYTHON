@@ -11,6 +11,9 @@ if height >= 1.20:
     elif age <=18:
         bill = 7
         print(f"Youth tickets are ${bill}.")
+    elif age >= 45 and age <=55:
+        bill = 0
+        print(f"Midlife tickets are ${bill}")
     else:
         bill = 12
         print(f"Adult tickets are ${bill}.")
