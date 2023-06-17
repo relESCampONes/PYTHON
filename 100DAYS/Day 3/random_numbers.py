@@ -17,6 +17,10 @@ for i in sortear:
     if i < 1 or i > 60:
         print("É NECESSÁRIO DIGITAR UM NÚMERO ENTRE 1 E 60, FAÇA UM PRÓXIMO JOGO!!!")
         sys.exit()
+    elif sortear.count(i) > 1:
+        print("VOCÊ REPETIU ALGUMA DEZENA, FAÇA UM PRÓXIMO JOGO!!!")
+        sys.exit()
+
 
 
 
